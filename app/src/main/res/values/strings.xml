@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lagos Github</string>
+    <string name="app_share">Share</string>
+    <string name="detail_title">Profile Detail</string>
+    <string name="view_profile">Check Full Profile</string>
+    <string name="app_err">"No application can handle this request."
+                            + " Please install a web-browser"</string>
+    <string name="home_url">https://github.com/</string>
+    <string name="userShare">Check out this awesome developer @</string>
+    <string name="error_message">Having trouble fetching Data... make sure you are connected and have internet access</string>
+    <string name="PARAM_SEARCH">location:lagos language:java</string>
+
+
+
+</resources>
