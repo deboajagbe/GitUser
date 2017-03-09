@@ -25,14 +25,11 @@ public class NetworkAccess {
 
     final static String sortBy = "stars";
 
-    final static String TOKEN_KEY = "?access_token=2e7b23a34f474eece17838ab757ff0e8b0a88f2f";
-
-
     public static URL buildGitUrl(String jointQuery) {
         Uri builtUri = Uri.parse(GITHUB_URL).buildUpon()
                 .appendQueryParameter(PARAM_QUERY, jointQuery)
                 .appendQueryParameter(PARAM_SORT, sortBy)
-                .appendQueryParameter(TOKEN_KEY, null)
+                .appendQueryParameter(BuildConfig.TOKEN_API_KEY, null)
                 .build();
 
         URL url = null;
